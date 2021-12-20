@@ -1,0 +1,137 @@
+.wraper__hed {
+    background: #F8F4FC;
+    max-width: 1920px;
+}
+
+.header__menu {
+    background: #F8F4FC;
+    height: 118px;
+    max-width: 1288px;
+    margin: 0 auto;
+    align-items: center; 
+}
+.menu-about {
+    display: flex;
+    list-style: none;
+}
+.menu-about li {
+    margin-left: 20px;
+}
+.menu__item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+.menu__item a {
+    padding: 0px 20px 0px 0px;
+}
+.menu-about a {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #354657;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.titel {
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 18px;
+    margin-top: 70px;
+}
+.header__home {
+    display: flex;
+    max-width: 1288px;
+     padding: 16px 0px 16px 0px;
+     margin: 0 auto;
+ }
+ .header__home a {
+     font-family: Raleway;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 16px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #626262;
+     padding-right: 10px;
+ }
+ .home__svg {
+     margin-right: 10px;
+     margin-top: 5px;
+ }
+ .home__svg:first {
+     margin-bottom: 10px;
+ }
+.titel {
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 18px;
+}
+.btn_cart {
+    transition: all 1s linear 500ms;
+    color: #946FD3;
+    border-radius: 50px;
+    border: 2px solid #946FD3;
+    background-color:white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.btn_cart:hover {
+    background-color: #946FD3;
+    color: white;
+    border: 2px solid white;
+}
+.card__transform:hover  {
+    transform:rotateY(180deg) ;
+    
+}
+.card__transform {
+    -webkit-transform: all 1s linear 400ms;
+    transition: all 1s linear 400ms;
+    position: relative;
+}
+.card__rotey {
+    display: none;
+    background: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.card__transform:hover >.card__rotey {
+    display: block;
+}
+.footer {
+    margin-top: 100px;
+    align-items: center
+}
+.social__networks ul {
+    display: flex;
+    list-style: none;
+}
+.social__networks li {
+    margin-left: 10px;
+}
+.social__networks {
+    display: flex;
+    justify-content: space-between;
+}
+.facebook:hover .ico-fb {
+	fill: hsl(249, 100%, 50%);
+}
+.instagram:hover .ico-in {
+    fill:red;
+}
+.youtabe:hover .ico-yt {
+    fill:red;
+}
+.linkedin:hover .ico-lk {
+    fill: hsl(249, 100%, 50%);
+}
+.pinterest:hover .ico-pin {
+    fill: orange;
+}

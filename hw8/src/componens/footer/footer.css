@@ -1,0 +1,35 @@
+.footer-item{
+    background-color: #c2c7d1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 348px;
+    margin-top: 80px;
+}
+.footer-item h1{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.10000000149011612px;
+    color: #373F41;
+}
+.footer-item p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.30000001192092896px;
+    color: #737B7D;
+}
+.coppee{
+    background-color: #373F41;
+    margin: 0;
+    height: 64px;
+    margin-top: -16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

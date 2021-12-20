@@ -1,0 +1,127 @@
+
+.wraper {
+    max-width: 1288px;
+    margin: 0 auto;
+}
+.logo {
+    margin: 60px 0px 45px 0px;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    background-color:#35444f;
+    
+}
+.main-menu {
+    list-style-type: none;
+    text-align: center;
+    color: #16a085;
+    padding: 0;
+    border: 1px solid  transparent;
+}
+.main-menu a {
+    text-decoration: none;
+    color:white;
+    padding: 1rem 0;
+    width: 100%;
+    display: inline-block;
+    font-size: 12px; 
+    font-size: 20pt;    
+}
+.main-menu:hover{
+    background-color:#222f3a;
+    border: 1px solid white;
+}
+.active{
+    background-color:#222f3a;
+    border: 1px solid white;
+}
+.content {
+    display: flex;
+    padding-top: 50px;
+}
+
+.content-tex {
+    border: 1px solid #35444f ;
+    width: 25%;
+    height: 399px;
+    margin-right: 50px;
+}
+.menu-info {
+    display: block;
+    padding: 0;
+}
+.main-info {
+
+    list-style-type: none;
+    text-align: center;
+    color: #16a085;
+    padding: 0;
+}
+.main-info a {
+    text-decoration: none;
+    color:#485863;
+    padding: 1rem 0;
+    width: 100%;
+    display: inline-block;
+    font-size: 12px; 
+    font-size: 20pt;
+}
+
+.main-info:hover{
+    background-color: #dbdbdb;
+    width: 100%;
+}
+.main-info a:hover{
+    color: #0f0f0f;
+}
+.main-info-active{
+    background-color: #dbdbdb;
+}
+.content-info {
+    width: 75%;
+}
+.content-info p {
+    font-size: 18pt;
+    color: #2c2c2c;
+}
+.content-img {
+    border: 1px solid #35444f ;
+    width: 100%;
+   display: flex;
+   justify-content: center
+}
+.content-img img {
+    padding: 70px 0px 70px 0px;
+}
+.foter{
+    background-color: #b4b7ba;
+}
+.foter-menu {
+    list-style-type: none;
+    text-align: center;
+    color: #16a085;
+    padding: 0;
+}
+.foter-menu a{
+    text-decoration: none;
+    color:#485863;
+    padding: 1rem 0;
+    width: 100%;
+    display: inline-block;
+    font-size: 12px; 
+    font-size: 20pt;
+}
+.foter-menu a:hover{
+    text-decoration:underline;
+    color: #6597ae;
+}
+.foter-menu-active a {
+    text-decoration:underline;
+    color: #6597ae;
+}
+.foter-menu p {
+    color: #313232; 
+    font-size: 15pt;
+}

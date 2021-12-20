@@ -1,0 +1,23 @@
+.produckt{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    margin-top: 80px;
+}
+.main-item{
+    margin: 0;
+}
+
+
+.elem-product{
+    align-items: flex-start;
+}
+.btn-prod{
+    color: aliceblue;
+    border: 1px solid #4646a1;
+    width: 115px;
+    height: 48px;
+    background-color: #4646a1;
+    margin-top: 25px;
+    
+}

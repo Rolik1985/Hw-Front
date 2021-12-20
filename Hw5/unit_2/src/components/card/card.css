@@ -1,0 +1,60 @@
+.wraper-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.my-card{
+    width: 400px;
+    border: 1px solid goldenrod;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.my-title{
+    background-color: #26d3ef;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 8px;
+
+
+}
+.titel-info{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+.btn{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.my-img{
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 200px;
+    height: 200px;
+    
+}
+.form-user p {
+    display: flex;
+    justify-content: space-between;
+}
+.form-label{
+    margin-left: 10px;
+}
+.form-control{
+    margin-right: 10px;
+    width: 60%;
+    border-radius: 8px;
+    border:solid 2px black;
+    
+}

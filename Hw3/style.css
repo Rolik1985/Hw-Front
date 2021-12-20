@@ -1,0 +1,285 @@
+.wraper {
+    max-width: 1920px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+	font-weight: normal;
+}
+.header {
+    width: 85%;
+    margin: 0 auto;
+    align-items: center
+}
+.input_header {
+    width: 500px;
+    height: 50px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 2px solid #323232;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: url(/img/adress.png) no-repeat center left;
+    padding-left:30px;
+
+}
+.btn_heder {
+    background: #EF781A;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    width: 98px;
+    height: 50px;
+}
+.btn_grin {
+    background: #00D008;
+    margin-left: 30px;
+
+}
+.header_btn {
+    display: flex;
+    justify-content: flex-end
+}
+.header_title {
+    border-top: solid 2px #ECECEC;
+    margin-top: 20px;
+}
+
+.header_title > h1{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin: 75px 0 30px 0;
+}
+.menu-about {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+}
+.menu-about h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px;
+
+}
+.menu-about li {
+    margin-right: 40px;
+}
+.menu-about a {
+    text-decoration: none;
+    color: #7B7B7B;
+    padding: 6px 8px;
+}
+.menu-about a:hover{
+    background: #C4C4C4;
+    border-radius: 10px;
+    padding: 6px 8px;
+}
+.menu_cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.menu_item {
+    width: 33%;
+    margin:35px 0px 30px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.menu_item:hover .btn_card {
+    display: block;
+}
+.menu_item:hover .menu_prize {
+    display: none;
+}
+.main {
+    max-width: 1920px;
+    background-color: #ECECEC;
+    margin: 0 auto;
+}
+.nav {
+    width: 85%;
+    margin: 0 auto;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn_card {
+    background: #FF6C01;
+    border-radius: 10px;
+    border:none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: white;
+    width: 150px;
+    height: 50px;
+    display: none;
+}
+.card-title {
+    margin-bottom: 1.5rem;
+}
+.menu_prize {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    
+}
+.zakaz {
+    margin-top: 30px;
+}
+.card_svg {
+    position: absolute;
+    right: 12px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.card_svg:hover {
+    fill: #69A042;
+}
+.modal-content{
+    display: flex;
+}
+.modal-header {
+    align-items: flex-start
+}
+.modal-header  h5 {
+    margin-left: 20px;
+}
+    
+.modal-content img {
+    width: 190px;
+    height: 160px;
+}
+.btn_modal-futer {
+    width: 40px;
+    height: 40px;
+    background: #FF6C01;
+    border-radius: 100%;
+    color: white;
+}
+.btn_sal {
+    width: 150px;
+    height: 40px;
+    background: #FF6C01;
+    border-radius: 10px;
+    color: white;
+}
+.modal_svg {
+    position: relative;
+
+}
+
+.modal_svg h5 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+}
+.modal_svg p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+    border: 1px solid white;
+    padding: 10px 25px 10px 45px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.modal_svg svg {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    cursor: pointer;
+    fill: yellowgreen;
+}
+.btn_basket {
+    width: 100%;
+    height: 60px;
+    background: #FF6C01;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.zakaz_deliver {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.zakaz_item {
+    display: flex;
+    justify-content: space-between
+}
+.zakaz-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.zakaz_body {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #979797;
+}
+.zakaz_box {
+    width: 50%;
+}
+.btn_plus  {
+    width: 40px;
+    height: 40px;
+    background: #FF6C01;
+    border-radius: 100%;
+    color: white;
+    border: none;
+}
+.btn_minus {
+    width: 40px;
+    height: 40px;
+    background: #FF6C01;
+    border-radius: 100%;
+    color: white;
+    border: none;
+}
+.counter {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #979797;
+}

@@ -1,0 +1,36 @@
+.MuiBox-root {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.MuiTypography-root{
+    color: #3C64B1;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.MuiContainer-root{
+    background:#c2c7d1;
+}
+.btn-inf{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: center;
+    height: 42px;
+    width: 83px;
+    background-color: #3C64B1;;
+
+
+}

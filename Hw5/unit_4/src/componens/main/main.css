@@ -1,0 +1,34 @@
+.menu-about{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.menu-about li {
+    margin-right: 40px;
+}
+.menu-about a {
+    text-decoration: none;
+    color: #7B7B7B;
+    padding: 6px 8px;
+}
+.menu-about a:hover{
+    background: #C4C4C4;
+    border-radius: 10px;
+    padding: 6px 8px;
+}
+.main{
+    max-width: 1920px;
+    background-color: rgb(236, 236, 236);
+}
+.main-menu{
+    margin: 0 auto;
+    width: 85%;
+    
+}

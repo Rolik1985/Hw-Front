@@ -1,0 +1,31 @@
+.content{
+    margin: 0 auto;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display{
+    width: 65%;
+    background-color: darkgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:1px solid black;
+
+}
+.btn {
+    height: 30px;
+    width: 70px;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.stopwatch {
+    width: 97%;
+    font-size: 30px;
+}
+   
